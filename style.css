@@ -22,7 +22,7 @@ header {
 .p3 {
   margin: 5% 5%;
   font-weight: 300;
-  color: hsl(0, 0%, 70%);
+  color: hsl(229, 6%, 66%);
   font-size: 105%;
   line-height: 160%;
 }
@@ -56,7 +56,7 @@ header {
 
 /* card */
 .container .card {
-  box-shadow: 0 10px 50px -20px hsl(229, 6%, 66%);
+  box-shadow: 0 10px 50px -25px hsl(234, 12%, 34%);
   border-radius: 5px;
   padding: 2rem;
 }
