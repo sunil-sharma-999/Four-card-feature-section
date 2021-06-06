@@ -4,49 +4,49 @@ body {
 /* header */
 header {
   text-align: center;
-  margin: 5rem 0 0 0;
+  margin: 25% 0 0 0;
 }
 
 .p1 {
   font-weight: 400;
   color: hsl(229, 6%, 66%);
-  font-size: 1.8rem;
+  font-size: 150%;
   margin: 0;
 }
 .p2 {
   font-weight: 600;
-  font-size: 1.85rem;
+  font-size: 158%;
   color: hsl(234, 12%, 34%);
   margin: 0;
 }
 .p3 {
-  margin: 1rem 1rem;
-  font-weight: 400;
+  margin: 5% 5%;
+  font-weight: 300;
   color: hsl(0, 0%, 75%);
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 105%;
+  line-height: 160%;
 }
 
 /* container */
 .container {
   display: grid;
-  margin: 6rem 2rem 2rem 2rem;
-  gap: 2rem 0;
+  margin: 20% 10% 10% 10%;
+  gap: 3% 0;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 /* cards */
 .container span {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 145%;
   color: hsl(234, 12%, 34%);
 }
 .container p {
-  font-size: 1rem;
+  font-size: 100%;
   font-weight: 400;
   opacity: 0.8;
   margin-top: 5px;
-  line-height: 1.8rem;
+  line-height: 150%;
   color: hsl(229, 6%, 66%);
 }
 .container img {
@@ -83,6 +83,7 @@ header {
 
 @media (min-width: 600px) {
   .container {
+    text-align: center;
     margin: 5rem 5rem;
     gap: 1rem 1rem;
     grid-template-columns: 1fr 1fr;

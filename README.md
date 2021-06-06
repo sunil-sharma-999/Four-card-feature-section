@@ -11,10 +11,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-Screenshot](./screenshot/screenshot-desktop.png)
-<img src="./screenshot/screenshot-mobile.png" alt="Mobile-Screenshot" width="250px">
+![Desktop-Screenshot](./screenshots/screenshot-desktop.png)
+<img src="./screenshots/screenshot-mobile.png" alt="Mobile-Screenshot" width="200px">
 
 ### Links
 
-- Live Site URL: [Four card feature section solution](https://your-live-site-url.com)
+- Live Site URL: [Four card feature section solution](https://sunil-sharma-999.github.io/Frontend-Mentor-Four-card-feature-section/)
 
 ## My process
 
@@ -83,6 +81,6 @@ And, I also learned something new, which is how to position the cards on grid th
 
 ## Author
 
-- GitHub - [Sunil Sharma](https://www.your-site.com)
+- GitHub - [Sunil Sharma](https://github.com/sunil-sharma-999/)
 - Frontend Mentor - [@sunil-sharma-999](https://www.frontendmentor.io/profile/sunil-sharma-999)
 - Instagram - [@sunil-sharma-9](https://www.instagram.com/sunil.sharma.9)
