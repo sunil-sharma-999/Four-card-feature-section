@@ -1,0 +1,139 @@
+body {
+  font-family: 'poppins';
+}
+/* header */
+header {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+
+.p1 {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  font-size: 1.8rem;
+  margin: 0;
+}
+.p2 {
+  font-weight: 600;
+  font-size: 1.85rem;
+  color: hsl(234, 12%, 34%);
+  margin: 0;
+}
+.p3 {
+  margin: 1rem 1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 75%);
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* container */
+.container {
+  display: grid;
+  margin: 6rem 2rem 2rem 2rem;
+  gap: 2rem 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+/* cards */
+.container span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: hsl(234, 12%, 34%);
+}
+.container p {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 5px;
+  line-height: 1.8rem;
+  color: hsl(229, 6%, 66%);
+}
+.container img {
+  display: block;
+  margin: 2rem 0 0 auto;
+}
+
+/* card */
+.container .card {
+  box-shadow: 0 10px 50px -20px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.card1 {
+  border-top: 4px solid;
+  border-color: hsl(180, 62%, 55%);
+}
+.card2 {
+  border-top: 4px solid;
+  border-color: hsl(0, 78%, 62%);
+}
+.card3 {
+  border-top: 4px solid;
+  border-color: hsl(34, 97%, 64%);
+}
+
+.card4 {
+  border-top: 4px solid;
+  border-color: hsl(212, 86%, 64%);
+}
+
+/* desktop */
+
+@media (min-width: 600px) {
+  .container {
+    margin: 5rem 5rem;
+    gap: 1rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'card1 card2' 'card3 card4';
+  }
+  .p3 {
+    margin: 1rem 20%;
+    font-size: 1rem;
+  }
+  .card1 {
+    grid-area: card1;
+  }
+  .card2 {
+    grid-area: card2;
+  }
+  .card3 {
+    grid-area: card3;
+  }
+  .card4 {
+    grid-area: card4;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    margin: 0 0 10% 0;
+  }
+  .container {
+    margin: 4% 10% 5% 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 8% 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'card1 card2 card4' 'card1 card3 card4';
+  }
+  .card1,
+  .card4 {
+    align-self: center;
+  }
+  header {
+    text-align: center;
+  }
+  .p1 {
+    font-size: 210%;
+  }
+  .p2 {
+    font-size: 216%;
+  }
+  .p3 {
+    font-size: 110%;
+    margin: 1% 30%;
+  }
+}
