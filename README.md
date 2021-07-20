@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section solution
+# Four card feature section solution
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Four card feature section solution](https://sunil-sharma-999.github.io/Frontend-Mentor-Four-card-feature-section/)
+- Live Site URL: [Four card feature section solution](https://sunil-sharma-999.github.io/Four-card-feature-section/)
 
 ## My process
 
